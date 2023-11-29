@@ -1,0 +1,75 @@
+html, body, #root, .App{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.main-content{
+    height: 100%;
+    width: 100%;
+}
+header{
+    position:relative;
+    height:7%;
+    width: 100%;
+    display: inline-flex; 
+    flex-wrap: wrap;
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2);
+
+   
+    
+ 
+}
+h2.sp-title{
+    text-align: center;
+    width: 50%;
+
+}
+nav{
+    width: 50%;
+}
+
+.nav-item-list{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(73, 73, 241, 0.8); 
+    height: 100%;
+   
+}
+.nav-item{
+    min-width:200px;
+    font-weight: bold;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    
+
+}
+.nav-item-content{
+
+}
+.nav-item:hover{
+    cursor: pointer;
+    background-color: rgba(73, 73, 241);
+}
+
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+}
+footer>p{
+    position:relative;
+
+    text-align: center;
+}
